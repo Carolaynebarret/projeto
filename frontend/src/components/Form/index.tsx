@@ -1,6 +1,3 @@
-import { getByLabelText } from "@testing-library/dom";
-import { Link } from "react-router-dom";
-
 const Form = () => {
     return (
         <form>
@@ -18,10 +15,10 @@ const Form = () => {
                 </div>
             </div>
             <div className="row g-3">
-                <label className="autoSizingSelect">Gênero:</label>
+                <label htmlFor="autoSizingSelect">Gênero:</label>
                 <div className="col">
-                    <select className="form-select" id="autoSizingSelect">
-                        <option selected>Escolher...</option>
+                    <select className="form-select" id="autoSizingSelect" defaultValue="">
+                        <option value="" disabled>Escolher...</option>
                         <option value="Masculino">Masculino</option>
                         <option value="Feminino">Feminino</option>
                         <option value="Outro">Outro</option>
@@ -37,7 +34,7 @@ const Form = () => {
             </div>
 
             <div className="row g-3">
-                <label className="exampleFormControlInput1" > Endereço de email:</label>
+                <label htmlFor="exampleFormControlInput1"> Endereço de email:</label>
                 <div className = "col">
                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                 </div>
@@ -84,12 +81,12 @@ const Form = () => {
                 </div>
 
                 <div className="row g-3">
-                    <label className="autoSizingSelect">Situação Laboral:</label>
+                    <label htmlFor="situacaoLaboral">Situação Laboral:</label>
                     <div className="col">
-                        <select className="form-select" id="autoSizingSelect">
-                            <option selected>Escolher...</option>
-                            <option value="Masculino">Empregado</option>
-                            <option value="Feminino">Desempregado</option>
+                        <select className="form-select" id="situacaoLaboral" defaultValue="">
+                            <option value="" disabled>Escolher...</option>
+                            <option value="Empregado">Empregado</option>
+                            <option value="Desempregado">Desempregado</option>
                             <option value="Outro">Outro</option>
                         </select>
                     </div>

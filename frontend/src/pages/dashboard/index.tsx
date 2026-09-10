@@ -1,25 +1,23 @@
-import Footer from "componets/Footer";
-import GraficoBarras from "componets/DonutChart";
-import Grafico from "componets/DonutChart";
-import Graficoteste from "componets/BarChart";
-import NavBar from "componets/NavBar";
-import { Link } from "react-router-dom";
+import Footer from "components/Footer";
+import GraficoPizza from "components/DonutChart";
+import GraficoBarras from "components/BarChart";
+import NavBar from "components/NavBar";
 
 const Dashboard = () => {
     return (
         <>
         <NavBar />
-        
+
         <div className="container" >
           <h2 className="bs-font-sans-serif " >  Dados  </h2>
-  
-         
+
+
         <div className="row px-3">
           <div className="col-sm-6">
-            <GraficoBarras />
+            <GraficoPizza />
           </div>
           <div className="col-sm-6">
-            <Graficoteste />
+            <GraficoBarras />
           </div>
         </div>
       </div>
