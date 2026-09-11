@@ -1,13 +1,13 @@
 # Projeto Final — POO (UERN)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Carolaynebarret/projeto)
-![GitHub top language](https://img.shields.io/github/languages/top/Carolaynebarret/projeto)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/Carolaynebarret/projeto?filename=frontend%2Fpackage.json)
-![License](https://img.shields.io/github/license/Carolaynebarret/projeto)
+![GitHub last commit](https://img.shields.io/github/last-commit/Carolaynebarret/site-institucional-poo-uern)
+![GitHub top language](https://img.shields.io/github/languages/top/Carolaynebarret/site-institucional-poo-uern)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Carolaynebarret/site-institucional-poo-uern?filename=frontend%2Fpackage.json)
+![License](https://img.shields.io/github/license/Carolaynebarret/site-institucional-poo-uern)
 
 Aplicação web front-end desenvolvida como projeto final da disciplina de **Programação Orientada a Objetos (POO)** da UERN. A aplicação apresenta um site institucional com navegação entre páginas, um formulário de coleta de dados pessoais e um dashboard com gráficos de exemplo.
 
-> Repositório: [`Carolaynebarret/projeto`](https://github.com/Carolaynebarret/projeto)
+> Repositório: [`Carolaynebarret/site-institucional-poo-uern`](https://github.com/Carolaynebarret/site-institucional-poo-uern)
 
 ## Funcionalidades
 
@@ -34,8 +34,8 @@ Aplicação web front-end desenvolvida como projeto final da disciplina de **Pro
 ## Instalação
 
 ```bash
-git clone https://github.com/Carolaynebarret/projeto.git
-cd projeto/frontend
+git clone https://github.com/Carolaynebarret/site-institucional-poo-uern.git
+cd site-institucional-poo-uern/frontend
 yarn install
 ```
 
@@ -66,7 +66,7 @@ yarn test
 ## Estrutura de pastas
 
 ```
-projeto/
+site-institucional-poo-uern/
 ├── docs/
 │   └── images/          # Screenshots do app (ver README da pasta)
 ├── frontend/             # Aplicação React (Create React App)
