@@ -1,13 +1,13 @@
 import Formulario from 'pages/Forms';
 import Home from 'pages/Home';
-import Dashboard from   'pages/dashboard';
-import Contatos from 'pages/Contatos'
+import Dashboard from 'pages/dashboard';
+import Contatos from 'pages/Contatos';
 
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const Routes = () => {
     return (
         <BrowserRouter>
-            <switch>
+            <Switch>
                 <Route path="/" exact>
                     <Home/>
                 </Route>
@@ -20,8 +20,7 @@ const Routes = () => {
                 <Route path="/contatos" exact>
                     <Contatos/>
                 </Route>
-                
-            </switch>
+            </Switch>
         </BrowserRouter>
     );
 }

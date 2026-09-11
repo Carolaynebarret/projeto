@@ -1,7 +1,6 @@
-import Footer from "componets/Footer";
-import Form from "componets/Form";
-import NavBar from "componets/NavBar";
-import { Link } from "react-router-dom";
+import Footer from "components/Footer";
+import Form from "components/Form";
+import NavBar from "components/NavBar";
 
 const Formulario = () => {
     return (
